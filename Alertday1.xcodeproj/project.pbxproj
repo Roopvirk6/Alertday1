@@ -14,6 +14,8 @@
 		9B505B46240DD04900AABCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B505B45240DD04900AABCDB /* Assets.xcassets */; };
 		9B505B49240DD04900AABCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B505B47240DD04900AABCDB /* LaunchScreen.storyboard */; };
 		9B505B51240DD8FB00AABCDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B505B50240DD8FB00AABCDB /* SecondViewController.swift */; };
+		9B505B54240DEC0800AABCDB /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B505B53240DEC0800AABCDB /* elephant.png */; };
+		9B505B56240DF22C00AABCDB /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B505B55240DF22C00AABCDB /* lion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9B505B48240DD04900AABCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B505B4A240DD04900AABCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B505B50240DD8FB00AABCDB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9B505B53240DEC0800AABCDB /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		9B505B55240DF22C00AABCDB /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		9B505B3B240DD04700AABCDB /* Alertday1 */ = {
 			isa = PBXGroup;
 			children = (
+				9B505B52240DEBB300AABCDB /* Images */,
 				9B505B3C240DD04700AABCDB /* AppDelegate.swift */,
 				9B505B3E240DD04700AABCDB /* SceneDelegate.swift */,
 				9B505B40240DD04700AABCDB /* FirstViewController.swift */,
@@ -68,6 +73,15 @@
 				9B505B50240DD8FB00AABCDB /* SecondViewController.swift */,
 			);
 			path = Alertday1;
+			sourceTree = "<group>";
+		};
+		9B505B52240DEBB300AABCDB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B505B55240DF22C00AABCDB /* lion.png */,
+				9B505B53240DEC0800AABCDB /* elephant.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B505B54240DEC0800AABCDB /* elephant.png in Resources */,
+				9B505B56240DF22C00AABCDB /* lion.png in Resources */,
 				9B505B49240DD04900AABCDB /* LaunchScreen.storyboard in Resources */,
 				9B505B46240DD04900AABCDB /* Assets.xcassets in Resources */,
 				9B505B44240DD04700AABCDB /* Main.storyboard in Resources */,

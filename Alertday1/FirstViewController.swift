@@ -11,6 +11,11 @@ import UIKit
 class FirstViewController: UIViewController {
     
     
+    
+    
+    
+    
+    
     @IBAction func showalert(_ sender: UIButton)
     {
         if sender.tag == 0 //show alert click
